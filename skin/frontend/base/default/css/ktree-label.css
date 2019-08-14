@@ -1,0 +1,98 @@
+.top-left {
+    position: absolute;
+	top:-20px;
+}
+
+.top-center {
+    position: absolute;
+	top:-20px;
+	left:25px
+}
+.top-right {
+    position: absolute;
+	top:-20px;
+	right:0px;
+}
+.middle-left {
+	left: 0;
+    position: absolute;
+    top: 30px;
+}
+.middle-center {
+    left: 25px;
+    position: absolute;
+    top: 30px;
+}
+.middle-right {
+    right: 0px;
+    position: absolute;
+    top: 30px;
+}
+.bottom-left {
+    bottom: -25px;
+    left: -2px;
+    position: absolute;
+}
+.bottom-center {
+    bottom: -25px;
+    left: 25px;
+    position: absolute;
+}
+.bottom-right {
+    bottom: -20px;
+    position: absolute;
+    right: 0;
+}
+.product-bottom-left {
+    position: relative;
+    bottom: -200px;
+    z-index: 999;
+}
+.product-bottom-center {
+    bottom: -200px;
+    right: -100px;
+    position: relative;
+	z-index: 999;
+}
+.product-bottom-right {
+    bottom: -300px;
+    position: relative;
+    z-index: 999;
+	right: -220px;
+}
+.product-top-left {
+    bottom: 0;
+    position: relative;
+    right: 0;
+    z-index: 999;
+}
+.product-top-center {
+     bottom: 0;
+    right: -100px;
+    z-index: 999;
+    position: relative;
+}
+.product-top-right {
+    bottom: 0;
+    position: relative;
+    right: -160px;
+    z-index: 999;
+}
+.product-middle-left {
+    bottom: -100px;
+    position: relative;
+    right: 0;
+    z-index: 999;
+}
+.product-middle-center {
+    bottom: -100px;
+    right: -100px;
+    z-index: 999;
+    position: relative;
+}
+.product-middle-right {
+    bottom: -100px;
+    position: relative;
+    right: -160px;
+    z-index: 999;
+}

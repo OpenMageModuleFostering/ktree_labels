@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ktree_Label>
+            <version>0.1.0</version>
+        </Ktree_Label>
+    </modules>
+
+    <global>
+        <models>
+            <label>
+                <class>Ktree_Label_Model</class>
+                <resourceModel>label_mysql4</resourceModel>
+            </label>
+            <label_mysql4>
+                <class>Ktree_Label_Model_Mysql4</class>
+                <entities>
+                    <label>
+                        <table>label</table>
+                    </label>
+                </entities>
+            </label_mysql4>
+        </models>
+
+        <blocks>
+            <label>
+                <class>Ktree_Label_Block</class>
+            </label>
+        </blocks>
+
+        <helpers>
+            <label>
+                <class>Ktree_Label_Helper</class>
+            </label>
+        </helpers>
+
+        <resources>
+            <label_setup>
+                <setup>
+                    <module>Ktree_Label</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </label_setup>
+            <label_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </label_write>
+            <label_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </label_read>
+        </resources>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <label after="Mage_Adminhtml">Ktree_Label_Adminhtml</label>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <label>
+                    <file>label.xml</file>
+                </label>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Ktree_Label>
+                    <files>
+                        <default>Ktree_Label.csv</default>
+                    </files>
+                </Ktree_Label>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <frontend>
+        <routers>
+            <label>
+                <use>standard</use>
+                <args>
+                    <module>Ktree_Label</module>
+                    <frontName>labels</frontName>
+                </args>
+            </label>
+        </routers>
+        <layout>
+            <updates>
+                <label>
+                    <file>label.xml</file>
+                </label>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Ktree_Label>
+                    <files>
+                        <default>Ktree_Label.csv</default>
+                    </files>
+                </Ktree_Label>
+            </modules>
+        </translate>
+    </frontend>
+</config>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ktree_Labels</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>OSLv3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Product Labels which will Show discount and latest product info using Customized Images</summary>
+    <description>Product Labels which will Show discount and latest product info using Customized Images</description>
+    <notes>Product Labels which will Show discount and latest product info using Customized Images</notes>
+    <authors><author><name>KTree</name><user>KTree</user><email>magento@ktree.com</email></author></authors>
+    <date>2015-01-22</date>
+    <time>05:10:31</time>
+    <contents><target name="magelocal"><dir name="Ktree"><dir name="Label"><dir name="Block"><dir name="Adminhtml"><dir name="Label"><dir name="Edit"><file name="Form.php" hash="6aa0fc9e39d5eafbefdbb008f8c9a8f1"/></dir><file name="Edit.php" hash="2779964c1a360a47b9f6ac6666ad8773"/><file name="Grid.php" hash="d0b9740fe927c488568d683e0a06eb9b"/></dir><file name="Label.php" hash="9b3c0fbd6feb53db16591b2890114edf"/></dir><file name="Label.php" hash="faddec1409b956f11a358b71734b464f"/></dir><dir name="Helper"><file name="Data.php" hash="6f4e695244b3693838a45668a87fb1c6"/></dir><dir name="Model"><file name="Label.php" hash="67558da2be6ca0c5e0de3f4a493162d7"/><dir name="Mysql4"><dir name="Label"><file name="Collection.php" hash="d8036cf9dcf6eca04c44f7d830c84b94"/></dir><file name="Label.php" hash="1be1051178f98f92ed4243f9f1463af9"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="LabelController.php" hash="b33b95ecb0c6348c9fff6eb8c364ca11"/></dir><file name="IndexController.php" hash="e7b7ea0f3a52be7314ca943aee922ad1"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a7a9e09759b86ef3f517a8e05a10316e"/><file name="config.xml" hash="6b864c175a4eb2b1839c96461fc73bb5"/></dir><dir name="sql"><dir name="label_setup"><file name="mysql4-install-0.1.0.php" hash="a84c60442ff0133c6785033f6aed31e2"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="label.xml" hash=""/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="label.xml" hash="aaaa29aa743309e83c80bb5f830850a4"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="label"><file name="list.phtml" hash="380f8108dfda48fddb290565fc9da362"/><file name="media.phtml" hash="b1d1c7279924d05418bb4cb90c815038"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ktree_Label.xml" hash="d40c9c5700c75b27e22c192698127ee7"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="ktree-label.css" hash="c82beded5e6f2e77640a4e9516601b90"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

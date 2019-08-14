@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ktree_Labels",
+    "type": "magento-module",
+    "license": "OSLv3.0",
+    "homepage": "",
+    "description": "Product Labels which will Show discount and latest product info using Customized Images",
+    "authors": [
+    {
+        "name": "KTree",
+        "email": "magento@ktree.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
